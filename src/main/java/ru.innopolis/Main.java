@@ -8,7 +8,7 @@ public class Main {
     public static void main() {
         LoggableClassLoader classLoader = new LoggableClassLoader(getClassLoader());
     }
-
+//comment
     public static ClassLoader getClassLoader() {
         return Main.getClassLoader();
     }
